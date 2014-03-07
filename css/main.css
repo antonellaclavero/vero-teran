@@ -30,5 +30,16 @@ a {
 .main li {
 	padding: 0.5em 10%;
 	display: inline-block;
-	font-family: 
+	color: gray;
+}
+/*section*/
+
+h1 {
+	font-family: 'Grand Hotel', cursive;
+	color: gray;
+	font-size: 3em;
+}
+p {
+	font-family: 'Arial';
+	font-size: 1em;
 }
