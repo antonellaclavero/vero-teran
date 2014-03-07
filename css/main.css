@@ -5,9 +5,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /*header*/
 
 header {
-	font-family: 'Lobster', cursive;
+	font-family: 'Bad Script', cursive;
 	color: gray;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 	background: #339999;
 }
@@ -24,4 +24,5 @@ a {
 .main li {
 	padding: 0.5em 10%;
 	display: inline-block;
+	font-family: 
 }
