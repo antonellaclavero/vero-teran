@@ -5,18 +5,24 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /*header*/
 
 header {
-	font-family: 'Bad Script', cursive;
+	font-family: 'Grand Hotel', cursive;
 	color: gray;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	background: #339999;
 }
 header img {
-	height: 256px;
-	width: 256px;
+	height: 242px;
+	width: 242px;
 	margin-bottom: 10px;
 	border-radius: 50%;
 	box-shadow: #fff 0 0 0 10px, #bbbbbb 0 0 0 11px;
+	display: block;
+	margin: auto;
+}
+header h1{
+	font-size: 2em;
+	margin: 1px;
 }
 a {
 	text-decoration: none;
