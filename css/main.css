@@ -9,8 +9,8 @@ header {
 	color: gray;
 	font-size: 3em;
 	text-align: center;
-	background: #339999;
-}
+	background: #99CCCC;
+}	
 header img {
 	height: 242px;
 	width: 242px;
@@ -33,13 +33,41 @@ a {
 	color: gray;
 }
 /*section*/
-
+.wrapper {
+	width: auto;
+	background-image: url("../images/light_grey.png");
+	padding: 50px;
+}
 h1 {
 	font-family: 'Grand Hotel', cursive;
 	color: gray;
 	font-size: 3em;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 p {
 	font-family: 'Arial';
 	font-size: 1em;
+	margin: 1px;
+}
+/*
+#presentacion {
+	background-color: red;
+	padding: 50px;
+}
+#trabajos {
+	background-color: yellow;
+	padding: 50px;
+}
+#servicios {
+	background-color: green;
+	padding: 50px;
+}
+*/
+footer {
+  height: 160px;
+  padding: 10px;
+  font-size: 1em;
+  margin: 2em;
+  display: block;
 }
