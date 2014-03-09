@@ -9,14 +9,15 @@ header {
 	color: gray;
 	font-size: 3em;
 	text-align: center;
-	background: #99CCCC;
+	background: url("../images/background-header.jpg");
+	border-bottom: 3px dotted white;
 }	
 header img {
 	height: 242px;
 	width: 242px;
 	margin-bottom: 10px;
 	border-radius: 50%;
-	box-shadow: #fff 0 0 0 10px, #bbbbbb 0 0 0 11px;
+	box-shadow: #fff 0 0 0 0px, #bbbbbb 0 0 0 3px;
 	display: block;
 	margin: auto;
 }
@@ -50,20 +51,7 @@ p {
 	font-size: 1em;
 	margin: 1px;
 }
-/*
-#presentacion {
-	background-color: red;
-	padding: 50px;
-}
-#trabajos {
-	background-color: yellow;
-	padding: 50px;
-}
-#servicios {
-	background-color: green;
-	padding: 50px;
-}
-*/
+
 footer {
   height: 160px;
   padding: 10px;
