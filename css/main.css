@@ -17,7 +17,7 @@ header img {
 	width: 242px;
 	margin-bottom: 10px;
 	border-radius: 50%;
-	box-shadow: #fff 0 0 0 0px, #bbbbbb 0 0 0 3px;
+	box-shadow: #fff 0 0 0 5px, #bbbbbb 0 0 0 3px;
 	display: block;
 	margin: auto;
 }
@@ -37,6 +37,7 @@ header h1{
 a {
 	text-decoration: none;
 	font-family: "Helvetica Neue";
+	color: #787878;
 }
 
 /*section*/
@@ -68,4 +69,11 @@ footer {
   font-size: 1em;
   background: url("../images/background-header.jpg");
   text-align: center;
+}
+.contact img {
+	width: 60px;
+	height: 60px;
+}
+.contact li {
+	display: inline-block;
 }
