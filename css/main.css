@@ -24,27 +24,35 @@ header img {
 header h1{
 	font-size: 2em;
 	margin: 1px;
+	color: #339999;
 }
-a {
-	text-decoration: none;
+.main a {
+	color: #339999;
 }
 .main li {
 	padding: 0.5em 10%;
 	display: inline-block;
-	color: gray;
 }
+a {
+	text-decoration: none;
+}
+
 /*section*/
 .wrapper {
 	width: auto;
+	height: 80%;
 	background-image: url("../images/light_grey.png");
 	padding: 50px;
+	border-bottom: 3px dotted white;
 }
 h1 {
 	font-family: 'Grand Hotel', cursive;
 	color: gray;
-	font-size: 3em;
+	font-size: 2em;
 	margin-bottom: 5px;
 	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 p {
 	font-family: 'Arial';
@@ -54,8 +62,8 @@ p {
 
 footer {
   height: 160px;
-  padding: 10px;
+  padding: 50px;
   font-size: 1em;
-  margin: 2em;
-  display: block;
+  background: url("../images/background-header.jpg");
+  text-align: center;
 }
