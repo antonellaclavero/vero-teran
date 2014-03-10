@@ -2,8 +2,18 @@
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
-/*header*/
 
+/*layout*/
+.main-header,
+.wrapper,
+.main-footer {
+	padding: 50px 20%;
+} 
+
+/*header*/
+a {
+	text-decoration: none;
+}
 header {
 	font-family: 'Grand Hotel', cursive;
 	color: gray;
@@ -26,26 +36,29 @@ header h1{
 	margin: 1px;
 	color: #339999;
 }
-.main a {
+.main-header a {
 	color: #339999;
-	font-family: 'Grand Hotel', cursive;
 }
-.main li {
+.main-header li {
 	padding: 0.5em 10%;
 	display: inline-block;
-}
-a {
-	text-decoration: none;
-	font-family: "Helvetica Neue";
-	color: #787878;
 }
 
 /*section*/
 .wrapper {
 	width: auto;
 	background-image: url("../images/light_grey.png");
-	padding: 50px;
 	border-bottom: 3px dotted white;
+}
+.wrapper a {
+	color: #FF9999;
+	text-decoration: none;
+	font-family: "Helvetica Neue";
+	font-size: 1em;
+}
+.wrapper a:hover {
+	color: #FF6666;
+	text-decoration: underline;
 }
 h1 {
 	font-family: 'Grand Hotel', cursive;
@@ -65,15 +78,32 @@ p {
 
 footer {
   height: 160px;
-  padding: 50px;
   font-size: 1em;
   background: url("../images/background-header.jpg");
   text-align: center;
 }
-.contact img {
-	width: 60px;
-	height: 60px;
-}
 .contact li {
 	display: inline-block;
+}
+.contact a {
+	background: url("../images/social-media-sprite.png");
+	width: 60px;
+	height: 60px;
+	display: block;
+	opacity: 0.8;
+}
+.contact a:hover {
+	opacity: 1;
+}
+.contact a span {
+	display: none;
+}
+.contact a.facebook {
+	background-position: 0px 0px;
+}
+.contact a.twitter {
+	background-position: 0px -70px;
+}
+.contact a.e-mail {
+	background-position: 0px -140px;
 }
