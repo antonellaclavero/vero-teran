@@ -19,7 +19,8 @@ header {
 	color: gray;
 	font-size: 3em;
 	text-align: center;
-	background: url("../images/background-header.jpg");
+	/*background: url("../images/background-header.jpg");*/
+	background-color: #755270;
 	border-bottom: 3px dotted white;
 }	
 header img {
@@ -34,10 +35,10 @@ header img {
 header h1{
 	font-size: 2em;
 	margin: 1px;
-	color: #339999;
+	color: #857182;
 }
 .main-header a {
-	color: #339999;
+	color: #857182;
 }
 .main-header li {
 	padding: 0.5em 10%;
@@ -51,7 +52,7 @@ header h1{
 	border-bottom: 3px dotted white;
 }
 .wrapper a {
-	color: #FF9999;
+	color: #857182;
 	text-decoration: none;
 	font-family: "Helvetica Neue";
 	font-size: 1em;
@@ -62,24 +63,30 @@ header h1{
 }
 h1 {
 	font-family: 'Grand Hotel', cursive;
-	color: #339999;
+	color: #857182;
 	font-size: 2em;
 	margin-bottom: 5px;
 	margin-top: 5px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+h2 {
+	font-family: "Helvetica Neue";
+	font-size: 1.2em;
+	color: #857182;
+}
 p {
 	font-family: "Helvetica Neue";
 	font-size: 1em;
-	color: #787878;
-	margin-bottom: 12px;
+	color: #8C848B;
+	/*margin-bottom: 12px;*/
+	margin: 0.8em 0
 }
 
 footer {
   height: 160px;
   font-size: 1em;
-  background: url("../images/background-header.jpg");
+  background-color: #755270;
   text-align: center;
 }
 .contact li {
@@ -106,4 +113,17 @@ footer {
 }
 .contact a.e-mail {
 	background-position: 0px -140px;
+}
+/*media queries*/
+@media screen and (max-width: 1280px) {
+  	section header {
+    height: 7em;
+  }
+}
+@media screen and (max-width: 960px) {
+   	section {
+    margin-right: 0;
+    width: 100%;
+    float: none;
+  }
 }
