@@ -88,6 +88,7 @@ footer {
   font-size: 1em;
   background-color: #755270;
   text-align: center;
+  border-top: 3px dotted white;
 }
 .contact li {
 	display: inline-block;
