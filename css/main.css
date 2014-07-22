@@ -25,7 +25,7 @@ header {
 	/*font-size: 3em;*/
 	text-align: center;
 	/*background: url("../images/background-header.jpg");*/
-	background-color: #755270;
+	background-color: #333D4C;
 	border-bottom: 3px dotted white;
 }	
 header img {
@@ -53,7 +53,8 @@ header h1 {
 /*section*/
 .wrapper {
 	width: auto;
-	background-image: url("../images/light_grey.png");
+	/*background-image: url("../images/light_grey.png");*/
+	background-color: #F3BB50;
 	border-bottom: 3px dotted white;
 }
 .wrapper a {
@@ -90,7 +91,7 @@ p {
 footer {
   height: 160px;
   font-size: 1em;
-  background-color: #755270;
+  background-color: #333D4C;
   text-align: center;
   border-top: 3px dotted white;
 }
