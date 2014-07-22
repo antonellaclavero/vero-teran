@@ -13,15 +13,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
-
-/*header*/
 a {
 	text-decoration: none;
 }
+
+/*header*/
+
 header {
 	/*font-family: 'Grand Hotel', cursive;*/
 	color: gray;
-	font-size: 3em;
+	/*font-size: 3em;*/
 	text-align: center;
 	/*background: url("../images/background-header.jpg");*/
 	background-color: #755270;
@@ -37,7 +38,7 @@ header img {
 	margin: auto;
 }
 header h1 {
-	font-size: 2em;
+	font-size: 1.5em;
 	margin: 1px;
 	color: #857182;
 }
@@ -58,33 +59,32 @@ header h1 {
 .wrapper a {
 	color: #857182;
 	text-decoration: none;
-	/*font-family: "Helvetica Neue";*/
 	font-size: 1em;
 }
 .wrapper a:hover {
 	color: #FF6666;
 	text-decoration: underline;
 }
+h1,
+h2 {
+	letter-spacing: 0.15em;
+	margin: 2em 0;
+}
 h1 {
 	/*font-family: 'Grand Hotel', cursive;*/
 	color: #857182;
 	font-size: 2em;
 	margin-bottom: 5px;
-	margin-top: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 h2 {
-	/*font-family: "Helvetica Neue";*/
 	font-size: 1.2em;
 	color: #857182;
 }
 p {
-	/*font-family: "Helvetica Neue";*/
 	font-size: 1em;
 	color: #8C848B;
-	/*margin-bottom: 12px;*/
-	margin: 0.8em 0
+	margin: 0.8em 0;
+	line-height: 1.5em;
 }
 
 footer {
