@@ -23,13 +23,9 @@ a {
 /*header*/
 
 header {
-	/*font-family: 'Grand Hotel', cursive;*/
 	color: gray;
-	/*font-size: 3em;*/
 	text-align: center;
-	/*background: url("../images/background-header.jpg");*/
 	background-color: #333D4C;
-	border-bottom: 3px dotted white;
 }	
 
 header h1 {
@@ -49,9 +45,7 @@ header h1 {
 
 .wrapper {
 	width: auto;
-	/*background-image: url("../images/light_grey.png");*/
 	background-color: #F3BB50;
-	border-bottom: 3px dotted white;
 }
 .wrapper a {
 	color: #857182;
@@ -68,7 +62,6 @@ h2 {
 	margin: 2em 0;
 }
 h1 {
-	/*font-family: 'Grand Hotel', cursive;*/
 	color: #857182;
 	font-size: 2em;
 	margin-bottom: 5px;
@@ -92,7 +85,6 @@ footer {
   font-size: 1em;
   background-color: #333D4C;
   text-align: center;
-  border-top: 3px dotted white;
 }
 footer img {
 	height: 242px;
