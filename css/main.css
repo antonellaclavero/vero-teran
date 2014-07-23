@@ -26,12 +26,24 @@ header {
 	color: gray;
 	text-align: center;
 	background-color: #333D4C;
+	height: 8em;
 }	
-
 header h1 {
 	font-size: 1.5em;
 	margin: 1px;
 	color: #857182;
+	float: left;
+	position: relative;
+	left: -9em;
+	top: 4.4em;
+}
+header img {
+	float: left;
+	height: 10em;
+	width: 5em;
+	position: relative;
+	left: -14em;
+	bottom: 2em;
 }
 .main-header a {
 	color: #857182;
