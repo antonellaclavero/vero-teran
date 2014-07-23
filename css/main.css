@@ -11,7 +11,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 } 
 /*body*/
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 a {
 	text-decoration: none;
@@ -28,7 +28,7 @@ header {
 	background-color: #333D4C;
 	border-bottom: 3px dotted white;
 }	
-header img {
+footer img {
 	height: 242px;
 	width: 242px;
 	margin-bottom: 10px;
@@ -83,7 +83,7 @@ h2 {
 }
 p {
 	font-size: 1em;
-	color: #8C848B;
+	color: #CCCCCB;
 	margin: 0.8em 0;
 	line-height: 1.5em;
 }
