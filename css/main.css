@@ -4,12 +4,15 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 /*layout*/
+
 .main-header,
 .wrapper,
 .main-footer {
 	padding: 50px 20%;
 } 
+
 /*body*/
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -28,15 +31,7 @@ header {
 	background-color: #333D4C;
 	border-bottom: 3px dotted white;
 }	
-footer img {
-	height: 242px;
-	width: 242px;
-	margin-bottom: 10px;
-	border-radius: 50%;
-	box-shadow: #fff 0 0 0 5px, #bbbbbb 0 0 0 3px;
-	display: block;
-	margin: auto;
-}
+
 header h1 {
 	font-size: 1.5em;
 	margin: 1px;
@@ -51,6 +46,7 @@ header h1 {
 }
 
 /*section*/
+
 .wrapper {
 	width: auto;
 	/*background-image: url("../images/light_grey.png");*/
@@ -83,10 +79,13 @@ h2 {
 }
 p {
 	font-size: 1em;
-	color: #CCCCCB;
+	/*color: #CCCCCB;*/
+	color: #A8A8A8; 
 	margin: 0.8em 0;
 	line-height: 1.5em;
 }
+
+/*footer*/
 
 footer {
   height: 160px;
@@ -94,6 +93,15 @@ footer {
   background-color: #333D4C;
   text-align: center;
   border-top: 3px dotted white;
+}
+footer img {
+	height: 242px;
+	width: 242px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	box-shadow: #fff 0 0 0 5px, #bbbbbb 0 0 0 3px;
+	display: block;
+	margin: auto;
 }
 .contact li {
 	display: inline-block;
@@ -120,7 +128,9 @@ footer {
 .contact a.e-mail {
 	background-position: 0px -140px;
 }
+
 /*media queries*/
+
 @media screen and (max-width: 1280px) {
   	section header {
     height: 7em;
