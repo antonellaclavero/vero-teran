@@ -93,10 +93,11 @@ p {
 /*footer*/
 
 footer {
-  height: 270px;
+  /*height: 300px;*/
   font-size: 1em;
   background-color: #333D4C;
   text-align: center;
+  background-size: cover;
 }
 footer img {
 	height: 242px;
@@ -109,30 +110,32 @@ footer img {
 }
 .contact li {
 	display: inline-block;
+	margin: 1em 1em;
 }
 .contact a {
-	background: url("../images/social-media-sprite.png");
-	width: 60px;
-	height: 60px;
+	background: url("../images/result.png");
+	width: 42px;
+	height: 42px;
 	display: block;
-	opacity: 0.8;
-}
-.contact a:hover {
-	opacity: 1;
 }
 .contact a span {
 	display: none;
 }
-.contact a.facebook {
+.contact a.twitter {
 	background-position: 0px 0px;
 }
-.contact a.twitter {
-	background-position: 0px -70px;
+.contact a.tumblr {
+	background-position: 0px -52px;
+}
+.contact a.linkedin {
+	background-position: 0px -104px;
 }
 .contact a.e-mail {
-	background-position: 0px -140px;
+	background-position: 0px -156px;
+
 }
 
+ 
 /*media queries*/
 
 @media screen and (max-width: 1280px) {
