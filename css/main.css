@@ -40,14 +40,24 @@ header img {
 	width: 5em;
 	margin: -2em auto;
 }
+
+.main-header ul {
+	text-align: right;
+	float: right;
+	margin-top: 5.5em;
+}
+.main-header li {
+	display: inline-block;
+	font-size: 1em;
+}
 .main-header a {
 	display: block;
 	padding: 20px 35px;
 	color: #B75D6C;
+	text-transform: uppercase;
 }
-.main-header li {
-	display: inline-block;
-	float: right;
+.main-header a:hover {
+	color: #80B2B1;
 }
 
 /*section*/
@@ -56,27 +66,22 @@ header img {
 	width: auto;
 	background-color: #F3BB50;
 }
-.wrapper a {
-	color: #857182;
-	text-decoration: none;
-	font-size: 1em;
-}
-.wrapper a:hover {
-	color: #FF6666;
-	text-decoration: underline;
+#presentacion,
+#servicios {
+	margin: 5em 0;
 }
 h1,
 h2 {
 	letter-spacing: 0.15em;
-	margin: 2em 0;
 	color: #333D4C;
 }
 h1 {
 	font-size: 2em;
-	margin-bottom: 5px;
+	margin: 1em 0;
 }
 h2 {
 	font-size: 1.2em;
+	margin-top: 2em;
 }
 p {
 	font-size: 1em;
@@ -88,7 +93,7 @@ p {
 /*footer*/
 
 footer {
-  height: 160px;
+  height: 270px;
   font-size: 1em;
   background-color: #333D4C;
   text-align: center;
