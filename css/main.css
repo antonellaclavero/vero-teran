@@ -8,7 +8,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .main-header,
 .wrapper,
 .main-footer {
-	padding: 50px 20%;
+	padding: 50px 15%;
 } 
 
 /*body*/
@@ -26,31 +26,28 @@ header {
 	color: gray;
 	text-align: center;
 	background-color: #333D4C;
-	height: 8em;
+	height: 5.5em;
 }	
 header h1 {
 	font-size: 1.5em;
-	margin: 1px;
+	margin: 2em auto;
 	color: #857182;
 	float: left;
-	position: relative;
-	left: -9em;
-	top: 4.4em;
 }
 header img {
 	float: left;
 	height: 10em;
 	width: 5em;
-	position: relative;
-	left: -14em;
-	bottom: 2em;
+	margin: -2em auto;
 }
 .main-header a {
+	display: block;
+	padding: 20px 35px;
 	color: #857182;
 }
 .main-header li {
-	padding: 0.5em 10%;
 	display: inline-block;
+	float: right;
 }
 
 /*section*/
