@@ -53,11 +53,11 @@ header img {
 .main-header a {
 	display: block;
 	padding: 20px 35px;
-	color: #B75D6C;
+	color: #80B2B1;
 	text-transform: uppercase;
 }
 .main-header a:hover {
-	color: #80B2B1;
+	color: #B75D6C;
 }
 
 /*section*/
